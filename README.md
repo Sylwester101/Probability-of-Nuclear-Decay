@@ -1,14 +1,14 @@
 # Probability-of-Nuclear-Decay
 Calculates the probability for actinide atoms to undergo fission with respect to competing neutron and gamma decays.
 
-##Dependencies
+## Dependencies
 Uses the following python libraries:
 - numpy
 - matplotlib.pyplot
 - scipy.interpolate
 - math
 
-##Features
+## Features
 
 The program uses the tanh-sinh quadrature algorithm in accordance with the paper: https://www.davidhbailey.com//dhbpapers/dhb-tanh-sinh.pdf
 

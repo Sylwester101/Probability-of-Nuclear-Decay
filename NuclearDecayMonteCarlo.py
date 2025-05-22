@@ -143,7 +143,7 @@ actinide_data = {
 
 excitedenergy=60
 
-samples=1
+samples=1000
 frequencies=montecarlofission(92,240,samples)
 probabilities={key:frequencies[key]/samples for key in frequencies}
 print(probabilities)

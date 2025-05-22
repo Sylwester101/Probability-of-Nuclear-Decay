@@ -1,5 +1,5 @@
 # Probability-of-Nuclear-Decay
-Calculates the probability for actinide atoms to undergo fission with respect to competing neutron and gamma decays.
+Calculates the probability for actinide series atoms to undergo fission with respect to competing neutron and gamma decays.
 
 ## Dependencies
 Uses the following python libraries:
@@ -29,6 +29,8 @@ If the atom undegoes fission the loop ends for that sample and the fission map a
 If the atom emits a neutron, the atom's atomic weight is reduced by one, and the excited energy of this new atom is the excited energy of the original atom minus the neutron binding energy and some kinetic energy of the neutron that is selected through a monte carlo simulation going through a numerically inverted kinetic energy culumative distribution function. The atom then continues the loop, until it undergoes fission at some point. 
 If the atom radiates, at the current moment it loses 2 MeV from the excited energy, however this will change in the near future to create a more accurate simulation. The atom also continues the loop until it undergoes fission.
 
+
+The binding energy data used for the actinide atoms is from Table 7 in the paper: https://www.sciencedirect.com/science/article/pii/S0092640X20300504
 
 ## License
 

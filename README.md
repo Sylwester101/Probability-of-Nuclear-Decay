@@ -8,7 +8,7 @@ Uses the following python libraries:
 - scipy.interpolate
 - math
 
-## Features
+## Technical Details
 
 The program uses the tanh-sinh quadrature algorithm in accordance with the paper: https://www.davidhbailey.com//dhbpapers/dhb-tanh-sinh.pdf
 
